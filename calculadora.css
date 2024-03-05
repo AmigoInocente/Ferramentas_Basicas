@@ -19,7 +19,7 @@ h1{
 }
 
 #corpoCalculadora{
-    background: url('../imagens/fundoCalculadora.png') center center;
+    background: url('imagens/fundoCalculadora.png') center center;
     margin-top: 10px;
 }
 

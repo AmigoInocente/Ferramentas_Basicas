@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.conjuntoLogoNome{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+.nome{
+    margin-left:40px;
+}
