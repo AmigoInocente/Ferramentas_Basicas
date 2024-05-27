@@ -75,9 +75,33 @@ h1{
     margin: auto;
 }
 
+.monitorPomodoro{
+    height: 300px;
+    width: 700px;
+    border-radius: 5px;
+    border: solid black;
+    margin: auto;
+    color: #4c67e2;
+    font-size: 300px;
+    font-family: 'Digital Numbers Regular';
+}
+
+.textoPomodoro{
+    height: 40px;
+    background-color: black;
+    color: white;
+    outline: 0;
+
+}
+
 #corpoCalculadora{
     background: url('imagens/fundoCalculadora.png') center center;
     margin-top: 10px;
+}
+
+#corpoPomodoro{
+    font-family: 'Digital Numbers Regular';
+    background-color: black;
 }
 
 .calculadoraBotoes{
@@ -108,3 +132,10 @@ a{
     text-decoration: none;
     color: white;
 }
+
+@font-face {
+    font-family: 'Digital Numbers Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital Numbers Regular'), url('DigitalNumbers-Regular.woff') format('woff');
+    }
