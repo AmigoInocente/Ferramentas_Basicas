@@ -123,12 +123,18 @@ button{
     background-color: rgb(115, 123, 161);
 }
 
-input{
+.tela{
+    margin-left: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 250px;
     height: 70px;
     border-radius: 20px;
     border-color: black;
     background-color: white;
+
 }
 
 a{
