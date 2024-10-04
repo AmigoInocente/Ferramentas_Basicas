@@ -46,6 +46,10 @@ header{
     font-family: 'lato', sans-serif;
 }
 
+.titulo{
+    color: black;
+}
+
 .outrasPaginas{
     display: flex;
 
@@ -58,7 +62,10 @@ header{
 }
 
 body{
-    background-color: rgb(1 100 148);
+    background: linear-gradient(300deg,rgb(27, 150, 211), white) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 785px;
 }
 
 h1{
@@ -75,6 +82,12 @@ h1{
     margin: auto;
 }
 
+.telaPomodoro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .monitorPomodoro{
     display: flex;
     align-items: center;
@@ -89,12 +102,36 @@ h1{
    
 }
 
-.textoPomodoro{
-    height: 40px;
+.inserirPomodoro{
+    position: relative;
+    font-size: 30px;
+    max-width: 80px;
+    left: 4px;
     background-color: black;
     color: white;
-    outline: 0;
+    border-radius: 10px;
+    margin: 10px 0;
+}
 
+button {
+    font-size: 20px;
+    width: 70px;
+    height: 50px;
+}
+
+.inserirNumeros{
+    font-size: 20px;
+    width: auto;
+    padding: 5px;
+    background-color: rgb(115, 123, 161);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.botoesPomodoro{
+    display: flex;
+    justify-content: center;
 }
 
 #corpoCalculadora{
@@ -149,6 +186,3 @@ a{
     src: local('Digital Numbers Regular'), url('DigitalNumbers-Regular.woff') format('woff');
     }
 
-telaPomodoro{
-    display: flex;
-}
