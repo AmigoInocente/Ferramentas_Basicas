@@ -1,68 +1,56 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
+@font-face {
+    font-family: 'Flexo-Bold';
+    src: url('\fontes\Flexo-Bold.ttf') format('ttf')
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    font-family: 'Flexo-Bold', sans-serif;
+    color: white;
 }
 
 header{
-    
-    border-bottom: 3px solid black;
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
     height: 80px;
     background-color: rgb(20, 41, 61);
-    color: white;
+    
 }
 
-.conjuntoLogoNome{
-    display: flex;
-    align-items: center;
-    margin-left: 35px;
-}
-
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
-    background: url('imagens/Logo.png') center center;
-
-}
-
-.nome{
-    margin-left:40px;
-}
-
-.nome h3{
-    font-family: 'lato', sans-serif;
+li {
+  list-style-type: none;
 }
 
 .titulo{
     color: black;
 }
 
+.laranja{
+    color: orange
+}
+
+.azul{
+    color:rgb(0, 140, 255);
+}
 .outrasPaginas{
     display: flex;
 
 }
 
-.outrasPaginas li{
+.outrasPaginas h2{
     margin: 40px;
     justify-content: flex-end;
 
 }
 
 body{
-    background: linear-gradient(300deg,rgb(27, 150, 211), white) no-repeat;
+    background: rgb(20, 41, 61);
     background-size: cover;
     background-position: center;
     height: 785px;
@@ -184,5 +172,30 @@ a{
     font-style: normal;
     font-weight: normal;
     src: local('Digital Numbers Regular'), url('DigitalNumbers-Regular.woff') format('woff');
-    }
+}
 
+
+label{
+    color: white;
+}
+
+.fotoDePerfil{
+    width: 500px;
+    border: 10px solid purple;
+    border:5px solid black;
+    border-radius: 100%;
+}
+
+.mostrar{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+    transition: all 2s;
+}
+
+.esconder{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateY(-10%);
+    transition: all 2s;
+}
