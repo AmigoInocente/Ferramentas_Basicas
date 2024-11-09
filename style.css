@@ -27,6 +27,27 @@ li {
   list-style-type: none;
 }
 
+.nome{
+    position: relative;
+    z-index: 10;
+    margin-top: -270px !important;
+    margin-bottom: 300px;
+}
+
+.fotoDePerfil{
+    width: 500px;
+    border: 10px solid purple;
+    border:5px solid black;
+    border-radius: 100%;
+}
+.aparecerNome{
+    transform: translateX(50%);
+    transition-delay: 3s;
+    transition: all 3s;
+   
+    
+}
+
 .titulo{
     color: black;
 }
@@ -179,23 +200,16 @@ label{
     color: white;
 }
 
-.fotoDePerfil{
-    width: 500px;
-    border: 10px solid purple;
-    border:5px solid black;
-    border-radius: 100%;
-}
-
 .mostrar{
     opacity: 1;
     filter: blur(0);
     transform: translateY(0);
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .esconder{
     opacity: 0;
     filter: blur(15px);
-    transform: translateY(-10%);
-    transition: all 2s;
+    transform: translateY(0%);
+    transition: 1s;
 }
